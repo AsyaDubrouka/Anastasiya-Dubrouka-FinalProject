@@ -1,0 +1,62 @@
+.container.team {
+    padding: 114px 0;
+
+  }
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+.team__wrap {
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+   flex-wrap: wrap;
+}
+.team__card {
+  max-width: 270px;
+    text-align:start;
+    }
+.team__img {
+    width: 270px;
+    height: 270px;
+    margin-bottom: 30px;
+}    
+.team__card__name {
+    color: #2D3033;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;  
+    margin-bottom: 5px;
+}
+.team__card__jobtitle {
+    color: #FF4343;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+margin-bottom: 18px;
+}
+.team__card__bio {
+    color: #6C7279;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 38px;
+}
+.team__svg {
+transition: 0.2s;
+}
+.team__svg:hover {
+transform: scale(1.5);
+margin: 0 5px;
+
+}

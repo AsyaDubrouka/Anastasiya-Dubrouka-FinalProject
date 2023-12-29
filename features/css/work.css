@@ -1,0 +1,144 @@
+.work {
+    width: 100%;
+    margin: auto; 
+  }
+ .gallery {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 340px);
+
+ }
+
+ .gallery__img {
+    border:1px solid #fff;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+   }
+   .gallery__item {
+    position: relative;
+   }
+ 
+  .gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    
+         
+  }
+   
+  .gallery__item--2 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+   
+   
+  }
+   
+  .gallery__item--3 {
+    grid-column-start:7;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+   
+   
+ 
+  }
+   
+  .gallery__item--4 {
+    grid-column-start: 10;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    
+   
+  }
+   
+  .gallery__item--5 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+ 
+   
+
+  }
+   
+  .gallery__item--6 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+
+   
+   }
+   .gallery__item--7 {
+    grid-column-start:7;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+   
+   
+   
+   }
+   
+   .gallery__item--8 {
+    grid-column-start:10;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    grid-row-end: 3;
+   }
+   .gallery__item .work__info{
+    opacity:0;
+    position:absolute;
+    top:0;
+    bottom:0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    border: 2px solid #FFF;
+    background: rgba(255, 67, 67, 0.50);
+    }
+
+
+  .gallery__item:hover .work__info{
+    opacity:1;
+  }
+  .gallery__item:active .work__info {
+    border: 2px solid #FFF;
+    background: rgba(185, 12, 12, 0.50);
+  }
+  .work__title {
+    color: #FFF;
+text-align: center;
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: uppercase;
+position: absolute;
+top: 35%;
+left:25%;
+  }
+  .work__subtitle {
+    color: #FFF;
+text-align: center;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+top: 55%;
+left:25%;
+  }
